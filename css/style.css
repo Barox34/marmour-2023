@@ -409,6 +409,11 @@ pre code {
         max-width: 1140px;
     }
 }
+@media (max-width: 1200px) {
+    .navbar {
+        display: none !important;
+    }
+}
 .container-fluid {
     width: 100%;
     padding-right: 15px;
